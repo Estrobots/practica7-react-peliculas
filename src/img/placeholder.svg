@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="750" viewBox="0 0 500 750">
+  <rect width="500" height="750" fill="#f4f5f7"/>
+  <rect x="25" y="25" width="450" height="650" rx="18" fill="#ffffff"/>
+  <circle cx="250" cy="180" r="110" fill="#1e293b"/>
+  <rect x="150" y="120" width="200" height="120" rx="16" fill="#2563eb"/>
+  <rect x="180" y="150" width="140" height="36" rx="8" fill="#ffffff"/>
+  <rect x="180" y="200" width="160" height="10" rx="5" fill="#cbd5e1"/>
+  <text x="250" y="340" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif" font-size="34" font-weight="700" text-anchor="middle" fill="#0f172a">🎬</text>
+  <text x="250" y="400" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif" font-size="26" font-weight="700" text-anchor="middle" fill="#0f172a">Películas</text>
+  <text x="250" y="432" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif" font-size="16" text-anchor="middle" fill="#64748b">App de listado y detalle de películas</text>
+</svg>
