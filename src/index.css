@@ -1,0 +1,93 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  color: #0f172a;
+}
+
+body {
+  min-height: 100vh;
+  background: radial-gradient(
+      circle at 15% -10%,
+      rgba(56, 189, 248, 0.16),
+      transparent 55%
+    ),
+    radial-gradient(circle at 90% 0%, rgba(251, 191, 36, 0.14), transparent 45%),
+    #f8fafc;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app-header {
+  background: linear-gradient(135deg, #0b1220 0%, #16233d 60%, #1e3a5f 100%);
+  color: #f8fafc;
+  padding: 26px 16px 24px;
+  text-align: center;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.25);
+}
+
+.app-title {
+  font-size: clamp(26px, 4vw, 34px);
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  line-height: 1.1;
+}
+
+.app-subtitle {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #94a3b8;
+  letter-spacing: 0.3px;
+}
+
+.app-main {
+  flex: 1;
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 28px 20px 44px;
+}
+
+.app-footer {
+  background: #eef2f7;
+  border-top: 1px solid #dbe3ec;
+  padding: 18px 20px 22px;
+  font-size: 13px;
+  color: #475569;
+  text-align: center;
+}
+
+.footer-row {
+  line-height: 1.7;
+}
+
+.footer-row:first-child {
+  font-weight: 600;
+  color: #1e293b;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  color: #2563eb;
+  text-decoration: underline;
+}
+
+a.link-no-underline {
+  text-decoration: none;
+}
