@@ -1,5 +1,6 @@
 import "./App.css";
 import AppRouter from "./routers/AppRouter";
+import escudoCucei from "./img/Escudo_CUCEI.svg";
 
 function App() {
   return (
@@ -14,6 +15,11 @@ function App() {
         <AppRouter />
       </main>
       <footer className="app-footer">
+        <img
+          src={escudoCucei}
+          alt="Escudo de CUCEI"
+          className="footer-logo"
+        />
         <div className="footer-row">
           Integrantes: Adrian Morales, Alejandro Velos, Jesús Cordero, Joel Estrada
         </div>

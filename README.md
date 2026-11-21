@@ -177,6 +177,7 @@ Historial real de commits de cada integrante en el repositorio (usuario de GitHu
 - style: agregar estilos de MovieCard
 - fix: actualizar datos del footer
 - docs: agregar README del proyecto
+- feat: agregar escudo de CUCEI al footer
 
 ## Conclusiones
 
