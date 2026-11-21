@@ -15,12 +15,12 @@ function App() {
       </main>
       <footer className="app-footer">
         <div className="footer-row">
-          Integrantes: Integrante 1, Integrante 2, Integrante 3, Integrante 4
+          Integrantes: Adrian Morales, Alejandro Velos, Jesús Cordero, Joel Estrada
         </div>
-        <div className="footer-row">Profesor: [Nombre del profesor]</div>
-        <div className="footer-row">Materia: [Nombre de la materia]</div>
-        <div className="footer-row">Calendario escolar: [Ej. 2026A]</div>
-        <div className="footer-row">Mes y año: Marzo 2026</div>
+        <div className="footer-row">Profesor: Zeus Emmanuel Gutiérrez Cobián</div>
+        <div className="footer-row">Materia: Desarrollo de Aplicaciones Web en la Nube y Móviles</div>
+        <div className="footer-row">Calendario escolar: 2026B</div>
+        <div className="footer-row">Mes y año: Noviembre 2026</div>
         <div className="footer-row">
           Institución: CUCEI - Universidad de Guadalajara
         </div>
